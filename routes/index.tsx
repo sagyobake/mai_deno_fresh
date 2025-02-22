@@ -3,7 +3,7 @@ import Counter from "../islands/Counter.tsx";
 
 
 export default function Home() {
-    const count = useSignal(6);
+    const count = useSignal(6); //引数nをここで指定する
     return (
         <body>
             <header>
@@ -11,8 +11,7 @@ export default function Home() {
             </header>
 
             <main>
-
-                <Counter count={count} />
+                <Counter count={count} /> {/*ここにすべてがはいっている*/}
             </main>
 
             <footer>
