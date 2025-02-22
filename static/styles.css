@@ -1,6 +1,4 @@
-body {
-    background-color: #202020;
-}
+
 
 h1 {
     color: pink;
@@ -10,7 +8,6 @@ h1 {
 }
 
 span {
-    color: white;
     font-size: 6dvmin;
     padding: 1dvmin;
 }
@@ -26,8 +23,8 @@ button {
 
 .counter {
     position: absolute;
-    top: 86dvmin;
-    right: 2dvmin;
+    top: 84dvmin;
+    left: 60dvmin;
 }
 
 .dot {
@@ -41,13 +38,25 @@ button {
 
 footer {
     position: absolute;
-    bottom: 4dvmin;
-    margin: 1dvmin;
+    top: 56dvmin;
     text-align: left;
 }
 
 a,
 a:visited {
     color: #0071d1;
-    /*カラーコードは任意*/
+    text-decoration: none;
+}
+
+.a_link {
+    margin: 1dvmin;
+    padding: 3dvmin;
+    border: 1px solid;
+    border-radius: 2dvmin 2dvmin 2dvmin 2dvmin;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 6dvmin;
+    height: 6dvmin;
 }

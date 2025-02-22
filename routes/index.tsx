@@ -11,25 +11,25 @@ export default function Home() {
             </header>
 
             <main>
-                <Counter count={count} /> {/*ここにすべてがはいっている*/}
+                <Counter count={count} /> {/*ハートとボタンの要素*/}
             </main>
 
             <footer>
-                <div>
-                    <a class="twitter" href="https://x.com/4831338_">X (Twitter)</a>
-                </div>
-
-                <div>
-                    <a class='instagram'
-                        href="https://www.instagram.com/42251935maimai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        Instagram <i>42251935maimai</i>
+                <div class="a_link">
+                    <a href="https://x.com/4831338_">
+                        <img src='./x-logo.png'></img>
                     </a>
                 </div>
 
-                <div>
-                    <a class='instagram'
-                        href="https://www.instagram.com/boc_mai1024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        Instagram <i>boc_mai1024</i>
+                <div class="a_link">
+                    <a href="https://www.instagram.com/42251935maimai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src='./instagram-logo.png'></img>
+                    </a>
+                </div>
+
+                <div class="a_link">
+                    <a href="https://www.instagram.com/boc_mai1024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src='./instagram-logo.png'></img>
                     </a>
                 </div>
             </footer>
