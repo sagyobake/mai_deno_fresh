@@ -21,15 +21,17 @@ button {
     width: 14dvmin;
     height: 14dvmin;
     font-size: 6dvmin;
-    background-color: gray;
+    background-color: lightgray;
     border-radius: 20%;
 }
 
 
 .counter {
     position: absolute;
-    top: 78dvmin;
-    left: 60dvmin;
+    top: 50dvmin;
+    left: 80dvmin;
+    font-size: 6dvmin;
+    text-align: center;
 }
 
 .dot {

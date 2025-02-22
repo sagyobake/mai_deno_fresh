@@ -38,9 +38,9 @@ export default function Counter(props: CounterProps) {
     return (
         <div>
             <div class='counter'>
-                <Button onClick={() => props.count.value -= 1}>-1</Button>
-                <span> {props.count} </span>
                 <Button onClick={() => props.count.value += 1}>+1</Button>
+                <div> {props.count} </div>
+                <Button onClick={() => props.count.value -= 1}>-1</Button>
             </div>
 
             {heartFunc(props.count.value)}
