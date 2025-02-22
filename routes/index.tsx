@@ -15,23 +15,25 @@ export default function Home() {
             </main>
 
             <footer>
-                <div class="a_link">
-                    <a href="https://x.com/4831338_">
-                        <img src='./x-logo.png'></img>
-                    </a>
-                </div>
+                <ul>
+                    <li>
+                        <a href="https://x.com/4831338_">
+                            <img src='./x-logo.png'></img>
+                        </a>
+                    </li>
 
-                <div class="a_link">
-                    <a href="https://www.instagram.com/42251935maimai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src='./instagram-logo.png'></img>
-                    </a>
-                </div>
+                    <li>
+                        <a href="https://www.instagram.com/42251935maimai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src='./instagram-logo.png'></img>
+                        </a>
+                    </li>
 
-                <div class="a_link">
-                    <a href="https://www.instagram.com/boc_mai1024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                        <img src='./instagram-logo.png'></img>
-                    </a>
-                </div>
+                    <li>
+                        <a href="https://www.instagram.com/boc_mai1024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src='./instagram-logo.png'></img>
+                        </a>
+                    </li>
+                </ul>
             </footer>
         </body>
 

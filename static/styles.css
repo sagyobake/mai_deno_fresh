@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 h1 {
     color: pink;
+    margin-top: 2dvmin;
     display: grid;
     place-content: center;
     max-width: 100dvmin;
@@ -38,7 +43,7 @@ button {
 
 footer {
     position: absolute;
-    top: 56dvmin;
+    top: 82dvmin;
     text-align: left;
 }
 
@@ -48,15 +53,22 @@ a:visited {
     text-decoration: none;
 }
 
-.a_link {
+ul {
+    display: flex;
+    position: absolute;
+    left: 0dvmin;
+}
+
+li {
+    list-style: none;
     margin: 1dvmin;
     padding: 3dvmin;
     border: 1px solid;
-    border-radius: 2dvmin 2dvmin 2dvmin 2dvmin;
+    border-radius: 50%;
     background-color: whitesmoke;
 }
 
 img {
-    width: 6dvmin;
-    height: 6dvmin;
+    width: 8dvmin;
+    height: 8dvmin;
 }
