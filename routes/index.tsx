@@ -19,18 +19,21 @@ export default function Home() {
                     <li>
                         <a href="https://x.com/4831338_">
                             <img src='./x-logo.png'></img>
+                            自分用
                         </a>
                     </li>
 
                     <li>
                         <a href="https://www.instagram.com/42251935maimai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                             <img src='./instagram-logo.png'></img>
+                            自分用
                         </a>
                     </li>
 
                     <li>
                         <a href="https://www.instagram.com/boc_mai1024?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                             <img src='./instagram-logo.png'></img>
+                            BUMP用
                         </a>
                     </li>
                 </ul>

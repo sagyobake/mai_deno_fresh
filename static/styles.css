@@ -28,8 +28,8 @@ button {
 
 .counter {
     position: absolute;
-    top: 50dvmin;
-    left: 80dvmin;
+    top: 42dvmin;
+    left: 84dvmin;
     font-size: 6dvmin;
     text-align: center;
 }
@@ -63,8 +63,10 @@ ul {
 
 li {
     list-style: none;
+    text-align: center;
+    width: 20dvmin;
     margin: 1dvmin;
-    padding: 3dvmin;
+    padding: 6dvmin;
     border: 1px solid;
     border-radius: 50%;
     background-color: whitesmoke;
@@ -73,4 +75,5 @@ li {
 img {
     width: 8dvmin;
     height: 8dvmin;
+    display: block;
 }
