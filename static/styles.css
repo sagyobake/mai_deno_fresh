@@ -28,8 +28,8 @@ button {
 
 .dot {
     position: absolute;
-    width: 0.3dvmin;
-    height: 0.3dvmin;
+    width: 0.4dvmin;
+    height: 0.4dvmin;
     border-radius: 50%;
     background-color: pink;
 }
