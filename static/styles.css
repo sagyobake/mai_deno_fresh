@@ -63,13 +63,14 @@ ul {
 
 li {
     list-style: none;
-    text-align: center;
     width: 20dvmin;
     margin: 1dvmin;
     padding: 6dvmin;
     border: 1px solid;
     border-radius: 50%;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 img {
