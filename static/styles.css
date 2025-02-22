@@ -4,6 +4,9 @@ body {
 
 h1 {
     color: pink;
+    display: grid;
+    place-content: center;
+    max-width: 100dvmin;
 }
 
 span {
@@ -12,9 +15,9 @@ span {
 }
 
 button {
-    width: 10dvmin;
-    height: 10dvmin;
-    font-size: 5dvmin;
+    width: 14dvmin;
+    height: 14dvmin;
+    font-size: 6dvmin;
     background-color: gray;
     border-radius: 20%;
 }
@@ -22,7 +25,7 @@ button {
 
 .counter {
     position: absolute;
-    top: 88dvmin;
+    top: 86dvmin;
     right: 2dvmin;
 }
 
@@ -39,6 +42,7 @@ footer {
     position: absolute;
     bottom: 4dvmin;
     margin: 1dvmin;
+    text-align: left;
 }
 
 a,
