@@ -47,6 +47,7 @@ footer {
     position: absolute;
     top: 76dvmin;
     text-align: left;
+    width: 100dvmin;
 }
 
 a,
@@ -56,25 +57,23 @@ a:visited {
 }
 
 ul {
-    display: flex;
-    position: absolute;
-    left: 0dvmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 li {
     list-style: none;
-    width: 20dvmin;
     margin: 1dvmin;
-    padding: 6dvmin;
+    padding: 2dvmin;
     border: 1px solid;
-    border-radius: 50%;
+    border-radius: 20% 20% 20% 20%;
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
 }
 
 img {
-    width: 8dvmin;
-    height: 8dvmin;
+    width: 16dvmin;
+    height: 16dvmin;
     display: block;
 }
