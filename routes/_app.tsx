@@ -5,7 +5,7 @@ export default function App({ Component }: PageProps) {
             <head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name='description' content="This is Mai's homepage" />
+                <meta name='description' content="This is Heart homepage" />
                 <title>Heart</title>
                 <link rel="stylesheet" href="/styles.css" />
             </head>
