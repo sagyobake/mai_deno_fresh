@@ -14,7 +14,7 @@ const heartFunc = () => { // nはハートの模様を変えるのに用いる�
                 class="dot"
                 style={{
                     left: `${50 + (16 * x)}dvmin`,
-                    top: `${45 + (-1 * (16 * y))}dvmin`,
+                    top: `${80 + (-1 * (16 * y))}dvmin`,
                 }}
             >
             </div>,
@@ -31,7 +31,9 @@ export default function Home() {
     return (
         <body>
             <header>
-                <h1>Heart</h1>
+                <h1>
+                    Kindle執筆で新世界の神になる！
+                </h1>
             </header>
 
             <main>

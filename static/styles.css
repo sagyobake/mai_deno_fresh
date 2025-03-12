@@ -9,11 +9,16 @@ body {
 }
 
 h1 {
-    color: pink;
-    margin-top: 2dvmin;
+    color: gold;
     display: grid;
     place-content: center;
     max-width: 100dvmin;
+    margin-top: 10dvmin;
+    margin-bottom: 20dvmin;
+    font-size: 6dvmin;
+    border: 1px solid;
+    padding: 4dvmin;
+    background-color: rebeccapurple;
 }
 
 
