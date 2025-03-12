@@ -3,7 +3,7 @@ const heartFunc = () => { // nはハートの模様を変えるのに用いる�
 
     const e = Math.E;
 
-    for (let x = -e; x <= e; x += 0.0001) {
+    for (let x = -e; x <= e; x += 0.0002) {
         const y =
             Math.sin(e ** 11 * x) *
             Math.sqrt((e ** 2 - x ** 2) / 1.8) +
