@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ultimate-sc-bun-test-43"
+          project: "lem-maicosmonaut"
           entrypoint: "main.ts"
           root: "."
           
