@@ -21,6 +21,10 @@ h1 {
     background-color: midnightblue;
 }
 
+i {
+    display: grid;
+    place-content: center;
+}
 
 .counter {
     position: absolute;

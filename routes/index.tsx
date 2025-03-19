@@ -34,6 +34,7 @@ export default function Home() {
                 <h1>
                     Kindle執筆で新世界の神になる！
                 </h1>
+                <i>若者いじめて楽しいか?</i>
             </header>
 
             <main>
