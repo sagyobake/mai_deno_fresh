@@ -39,6 +39,8 @@ i {
 img {
     border-radius: 50%;
     animation: 3s linear infinite rotation;
+    width: 90dvmin;
+    height: 90dvmin;
 }
 
 @keyframes rotation {
